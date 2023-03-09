@@ -21,7 +21,7 @@ Add GroupId int Not Null Foreign Key References Groups(Id)
 
 --3. Students table-na Grade (int) kalonunu əlavə etmək - 3 bal
 	Alter table Student 
-	Add Grade int identity
+	Add Grade int
 
 
 --4. Groups table-na 3 data(P133,P229,P221), Students table-na 4 data əlavə edin(1 tələbə P229 qrupna, 3 tələbə P133   qrupuna aid olsun) - 5 bal
